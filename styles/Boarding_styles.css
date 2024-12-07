@@ -1,0 +1,317 @@
+/* General Styles for Additional Section */
+.header {
+    text-align: center;
+    background-color: #f0f8ff; /* Fallback color */
+    background-image: url('https://northpointerentals.com/wp-content/uploads/2020/01/banner-pets-dog-cat-boarding-1000x451.png'); /* Replace with your image URL */
+    background-size: cover; /* Scale the image to fit the container */
+    background-repeat: no-repeat; /* Prevents repeating */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 400px; /* Adjust the height to fit your design */
+    position: static; 
+}
+
+
+.header h1 {
+    color: #2a5298;
+    margin-bottom: 10px;
+}
+.header .highlight {
+    color: #f3904f;
+    font-weight: bold;
+}
+.header p {
+    margin: 10px 0;
+}
+.cta-button {
+    background-color: #f3904f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.cta-button:hover {
+    background-color: #d8783e;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    gap: 20px;
+    padding: 20px;
+    align-items: center; /* Center-align the entire content section */
+}
+
+/* Main Form */
+.main-form {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffffb2;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Service Options */
+.service-section {
+    margin-bottom: 20px;
+}
+.service-title {
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.service-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.service-btn {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.service-btn:hover {
+    background-color: #f0f0f0;
+}
+.service-btn.selected {
+    background-color: #2a5298f3;
+    color: white;
+    font-weight: bold;
+}
+
+/* Form Inputs */
+.form-row {
+    display: flex;
+    justify-content: space-between; /* Ensure even spacing between items */
+    align-items: center;
+    gap: 15px; /* Adjust the gap between the elements */
+    margin-top: 20px; /* Add some spacing above */
+}
+
+.form-group {
+    flex: 1; /* Ensure both elements take equal space */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 15px;
+    color: #050505;
+    margin-bottom: 5px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.clear-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #fa0000;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    background-color: #fff;
+}
+
+input:focus,select:focus
+ {
+    border-color: #5d00ff;
+}
+
+.clear-btn:hover {
+    color: #ff6600;
+}
+.content-intro {
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    text-align: center;       /* Ensure the text inside is centered */
+    flex-direction: column;   /* Stack the elements vertically */
+    margin: 20px 0;           /* Add margin for spacing */
+}
+
+/* Container for Listings and Sidebar */
+
+.listing-container {
+    display: flex; /* Sidebar and listing section side-by-side */
+    flex-direction: column; /* Ensure they are aligned horizontally */
+    gap: 15px; /* Space between the listing section and the sidebar */
+    align-items: flex-start; /* Align items at the top */
+    align-content: center;
+    margin-top: 15px;
+    overflow: visible; /* Prevent clipping of content */
+}
+
+/* Listing Section */
+.listing-container {
+    display: flex;           /* Use flexbox layout */
+    flex-direction: column;  /* Stack items vertically */
+    align-items: center;     /* Center-align items horizontally */
+    gap: 25px;               /* Space between the listing cards */
+    margin-top: 20px;        /* Add space at the top */
+}
+
+
+/* Individual Listing Card */
+.listing-card {
+    flex: 1; /* Cards take full width inside listing-section */
+    display: flex;
+    gap: 15px;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Sidebar Section */
+.sidebar {
+    flex: 1; /* Sidebar takes up less space compared to the listing card */
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky; /* Keeps the sidebar in place during scroll */
+    top: 0; /* Sticky positioning starts at the top of the viewport */
+}
+
+
+/* Listing Column */
+.listing-column {
+    flex:2; /* Make listing column wider compared to the sidebar */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add gap between individual listings */
+}
+
+
+
+
+/* Adjust Image Styling */
+.pet-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Listing Details */
+.listing-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listing-details h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.location {
+    font-size: 14px;
+    color: #666;
+}
+
+.location span {
+    font-weight: bold;
+    color: #333;
+}
+
+.listing-details p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6700;
+}
+
+
+.sort-button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #673ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.map-view img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.benefits p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.benefits .highlight {
+    color: #673ab7;
+    font-weight: bold;
+}
+
+/* Responsive Design for Mobile */
+
+@media screen and (max-width: 768px) {
+    .listing-container {
+        flex-direction: column; /* Stack sidebar below listings */
+    }
+
+    .sidebar {
+        width: 100%; /* Sidebar spans full width on small screens */
+    }
+
+    .listing-section {
+        width: 100%; /* Listings span full width on small screens */
+    }
+    .map-container {
+        height: 300px;
+    }
+}
