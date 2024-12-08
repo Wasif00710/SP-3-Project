@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right,#0a5af0a1, #8be00b85); /* Blue and Green mix */
+    background: linear-gradient(to right, #0a5af0, #8be00b); /* Blue and Green mix without transparency */
     margin: 0;
     padding: 0;
 }
