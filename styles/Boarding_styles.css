@@ -173,7 +173,8 @@ input:focus,select:focus
     align-items: flex-start; /* Align items at the top */
     align-content: center;
     margin-top: 15px;
-    overflow: visible; /* Prevent clipping of content */
+    overflow: visible;
+    cursor: pointer;/* Prevent clipping of content */
 }
 
 /* Listing Section */
@@ -182,7 +183,8 @@ input:focus,select:focus
     flex-direction: column;  /* Stack items vertically */
     align-items: center;     /* Center-align items horizontally */
     gap: 25px;               /* Space between the listing cards */
-    margin-top: 20px;        /* Add space at the top */
+    margin-top: 20px;
+    cursor: pointer;/* Add space at the top */
 }
 
 
@@ -197,6 +199,7 @@ input:focus,select:focus
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
+    cursor: pointer;
 }
 
 /* Sidebar Section */
